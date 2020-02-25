@@ -2,9 +2,9 @@ module.exports = {
   extends: ["plugin:prettier/recommended", "get-off-my-lawn"],
   plugins: ["simple-import-sort"],
   rules: {
-    // Enable sorter
+    // enable: eslint-plugin-simple-import-sort
+    "sort-imports": "off",
+    "import/order": "off",
     "simple-import-sort/sort": "error",
-    "sort-imports": 0,
-    "import/order": 0,
   },
 }
