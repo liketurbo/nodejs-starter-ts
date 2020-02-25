@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://nodejs.org/">
-    <img alt="Node.js" src="https://nodejs.org/static/images/logo.svg" width="60" />
+    <img alt="Node.js" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/1200px-Node.js_logo.svg.png" width="60" />
   </a>
 </p>
 
@@ -27,7 +27,7 @@
     Navigate into your new project’s directory and start it up.
 
     ```sh
-    cd <project-name>
+    cd nodejs-starter-babel
     yarn
     yarn dev
     ```
