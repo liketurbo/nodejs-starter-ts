@@ -5,12 +5,12 @@
 </p>
 
 <h1 align="center">
-  Node.js Starter with Babel
+  Node.js Starter with TypeScript
 </h1>
 
 ## Features
 
-- [Babel](https://babeljs.io)
+- [TypeScript](https://www.typescriptlang.org)
 
 ## Quick start
 
@@ -19,7 +19,7 @@
     Use the Git CLI to create a project.
 
     ```sh
-    git clone https://github.com/liketurbo/nodejs-starter-babel
+    git clone https://github.com/liketurbo/nodejs-starter-ts
     ```
 
 2.  **Start developing**
@@ -27,7 +27,7 @@
     Navigate into your new project’s directory and start it up.
 
     ```sh
-    cd nodejs-starter-babel
+    cd nodejs-starter-ts
     yarn
     yarn dev
     ```
