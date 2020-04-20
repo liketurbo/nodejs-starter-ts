@@ -1,9 +1,8 @@
 module.exports = {
   parser: "@typescript-eslint/parser",
   extends: [
-    "eslint:recommended",
     "plugin:@typescript-eslint/recommended",
-    "plugin:prettier/recommended",
+    "prettier",
     "prettier/@typescript-eslint",
     "get-off-my-lawn",
   ],
@@ -16,6 +15,9 @@ module.exports = {
     "sort-imports": "off",
     "import/order": "off",
     "simple-import-sort/sort": "error",
+
+    // fix: tests
+    "jest/valid-describe": "off",
   },
   settings: {
     "import/resolver": {
