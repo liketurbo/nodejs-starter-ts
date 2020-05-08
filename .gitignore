@@ -1,11 +1,11 @@
-# VSCode config
-/.vscode/
-
-# Yarn logs
-/yarn-error.log
-
 # Node.js modules
 /node_modules/
 
 # Builded files
 /dist/
+
+# VSCode config
+/.vscode/
+
+# Yarn logs
+/yarn-error.log
