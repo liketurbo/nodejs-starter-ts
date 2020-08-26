@@ -5,22 +5,22 @@
   "license": "MIT",
   "private": true,
   "devDependencies": {
-    "@types/cheerio": "^0.22.16",
-    "@types/jest": "^25.2.1",
-    "@types/request-promise-native": "^1.0.17",
-    "@typescript-eslint/eslint-plugin": "^2.22.0",
-    "@typescript-eslint/parser": "^2.22.0",
+    "@types/cheerio": "0.22.21",
+    "@types/jest": "25.2.3",
+    "@types/request-promise-native": "1.0.17",
+    "@typescript-eslint/eslint-plugin": "2.34.0",
+    "@typescript-eslint/parser": "2.34.0",
     "eslint": "6.8.0",
     "eslint-config-get-off-my-lawn": "5.0.1",
     "eslint-config-prettier": "6.7.0",
     "eslint-plugin-simple-import-sort": "5.0.0",
     "husky": "4.2.5",
-    "jest": "^25.4.0",
+    "jest": "25.4.0",
     "lint-staged": "9.5.0",
     "prettier": "2.0.4",
-    "ts-jest": "^25.4.0",
-    "ts-node-dev": "^1.0.0-pre.44",
-    "typescript": "^3.8.3"
+    "ts-jest": "25.4.0",
+    "ts-node-dev": "1.0.0-pre.44",
+    "typescript": "3.8.3"
   },
   "scripts": {
     "dev": "tsnd --respawn --notify false src/index.ts",
@@ -44,6 +44,6 @@
   "dependencies": {
     "cheerio": "1.0.0-rc.3",
     "request": "2.88.2",
-    "request-promise-native": "^1.0.8"
+    "request-promise-native": "1.0.8"
   }
 }
